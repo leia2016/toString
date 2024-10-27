@@ -50,7 +50,7 @@ public class Carro {
     }
 
     public void acelerar() {
-        this.velocidade += 10;
+        this.velocidade += 50;
     }
 
     public void frear() {
