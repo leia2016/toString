@@ -2,9 +2,9 @@ public class TestaCarro {
     public static void main(String[] args) {
 
         Carro carro1 = new Carro();
-        carro1.setModelo("Fusca");
+        carro1.setModelo("Polo");
         carro1.setMarca("Volkswagen");
-        carro1.setAno(1975);
+        carro1.setAno(2010);
 
         System.out.println(carro1);
         carro1.acelerar();
@@ -16,7 +16,7 @@ public class TestaCarro {
         System.out.println();
 
 
-        Carro carro2 = new Carro("Civic", "Honda", 2020);
+        Carro carro2 = new Carro("500", "Fiat", 2020);
         System.out.println(carro2);
         carro2.acelerar();
         carro2.acelerar();
