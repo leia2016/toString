@@ -11,14 +11,14 @@ public class TestaContaBancaria {
         System.out.println("Saldo após depósito: " + conta.consultarSaldo());
 
 
-        conta.sacar(200);
+        conta.sacar(50);
         System.out.println("Saldo após saque: " + conta.consultarSaldo());
 
 
-        conta.sacar(900);
+        conta.sacar(250);
         System.out.println("Saldo após tentativa de saque: " + conta.consultarSaldo());
 
 
-        conta.depositar(-50);
+        conta.depositar(500);
     }
 }
