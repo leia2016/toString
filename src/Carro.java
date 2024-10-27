@@ -6,10 +6,10 @@ public class Carro {
 
 
     public Carro() {
-        this.modelo = ""; // Inicializa com string vazia
-        this.marca = "";  // Inicializa com string vazia
-        this.ano = 0;     // Inicializa com 0
-        this.velocidade = 0; // Inicializa com 0
+        this.modelo = "";
+        this.marca = "";
+        this.ano = 0;
+        this.velocidade = 0;
     }
 
 
