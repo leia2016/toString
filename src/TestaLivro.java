@@ -8,9 +8,9 @@ public class TestaLivro {
         List<Livro> biblioteca = new ArrayList<>();
 
 
-        biblioteca.add(new Livro("Dom Casmurro", "Machado de Assis", "Literatura"));
-        biblioteca.add(new Livro("1984", "George Orwell", "Ficção"));
-        biblioteca.add(new Livro("O Senhor dos Anéis", "J.R.R. Tolkien", "Fantasia"));
+        biblioteca.add(new Livro("A baleia", "Marileia Vargas", "Literatura"));
+        biblioteca.add(new Livro("2000", "Pedro Carneiro", "Ficção"));
+        biblioteca.add(new Livro("O que se perdeu", "João de Deus", "Fantasia"));
 
         int opcao;
         do {
